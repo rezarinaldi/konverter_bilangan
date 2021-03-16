@@ -1,10 +1,14 @@
 # konverter_bilangan
 
-### 📜 Kuis 1 Pemrograman Mobile - Polinema 2021
+### 📜 Kuis 1 Pemrograman Mobile - Polinema 2021 (MI 2B)
 
 ### ♻ Source
 
-[![konverter_bilangan)](https://github-readme-stats.vercel.app/api/pin?username=MochHelmiHasan6&repo=Kuis1PemrogramanMobile&title_color=fff&icon_color=fff&text_color=fff&bg_color=009AF4)](https://github.com/MochHelmiHasan6/Kuis1PemrogramanMobile)
+[![konverter_bilangan)](https://github-readme-stats.vercel.app/api/pin?username=MochHelmiHasan6&repo=Kuis1PemrogramanMobile&title_color=fff&icon_color=fff&text_color=fff&bg_color=673ab7)](https://github.com/MochHelmiHasan6/Kuis1PemrogramanMobile)
+
+### 📑 Result
+
+![result](img/konverter_bilangan.png)
 
 ## A new Flutter project.
 

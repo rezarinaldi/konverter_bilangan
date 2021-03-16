@@ -1,11 +1,13 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class History extends StatelessWidget {
-  final List<String> listViewItem;
+  const History({
+    Key key,
+    @required this.listViewItem,
+  }) : super(key: key);
 
-  const History({Key key, @required this.listViewItem}) : super(key: key);
+  final List<String> listViewItem;
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +17,9 @@ class History extends StatelessWidget {
           margin: EdgeInsets.all(10),
           child: Text(
             value,
-            style: TextStyle(fontSize: 15),
+            style: GoogleFonts.inter(
+              fontSize: 15,
+            ),
           ),
         );
       }).toList(),

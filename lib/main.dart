@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'input.dart';
 import 'result.dart';
 import 'convert.dart';
@@ -146,16 +147,21 @@ class _MyAppState extends State<MyApp> {
           title: Text("Konverter Bilangan"),
         ),
         body: Container(
-          margin: EdgeInsets.all(8),
+          margin: EdgeInsets.all(25),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Input(etDecimal: etDecimal),
               Container(
-                margin: EdgeInsets.only(top: 10, bottom: 10),
+                margin: EdgeInsets.only(
+                  top: 30,
+                  bottom: 10,
+                ),
                 child: Text(
                   "dari Bilangan",
-                  style: TextStyle(fontSize: 15),
+                  style: GoogleFonts.inter(
+                    fontSize: 15,
+                  ),
                 ),
               ),
               Dropdown(
@@ -164,10 +170,15 @@ class _MyAppState extends State<MyApp> {
                 newMethod: dropdownOnChanged,
               ),
               Container(
-                margin: EdgeInsets.only(top: 10, bottom: 10),
+                margin: EdgeInsets.only(
+                  top: 10,
+                  bottom: 10,
+                ),
                 child: Text(
                   "Konversi ke Bilangan",
-                  style: TextStyle(fontSize: 15),
+                  style: GoogleFonts.inter(
+                    fontSize: 15,
+                  ),
                 ),
               ),
               Dropdown(
@@ -180,10 +191,16 @@ class _MyAppState extends State<MyApp> {
               ),
               Convert(convertHandler: _konversiBilangan),
               Container(
-                margin: EdgeInsets.only(top: 10, bottom: 10),
+                margin: EdgeInsets.only(
+                  top: 30,
+                  bottom: 10,
+                ),
                 child: Text(
                   "History Konversi",
-                  style: TextStyle(fontSize: 20),
+                  style: GoogleFonts.inter(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               Expanded(

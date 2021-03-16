@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 class Dropdown extends StatelessWidget {
-  final List<String> listView;
-  final String newValue;
-  final Function newMethod;
-
   const Dropdown({
     Key key,
     this.listView,
     this.newValue,
     this.newMethod,
   }) : super(key: key);
+
+  final List<String> listView;
+  final String newValue;
+  final Function newMethod;
 
   @override
   Widget build(BuildContext context) {
